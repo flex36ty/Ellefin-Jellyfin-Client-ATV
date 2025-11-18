@@ -271,11 +271,12 @@ private fun Catalog(
         // Scrollable content
         // Adjust top padding based on whether carousel or immersive preview is enabled
         // When both are disabled, use minimal padding (just enough for nav bar)
-        // When either is enabled, use larger padding to accommodate the preview/carousel
-        val topPadding = if (featuredMovies.isNotEmpty() || immersiveListEnabled) {
-            320.dp // Push all rows down when carousel or immersive preview is active
-        } else {
-            48.dp // Minimal padding when neither is enabled (just nav bar height + spacing)
+        // When immersive preview is enabled, use larger padding to accommodate the preview
+        // When only carousel is enabled, use minimal padding to keep carousel close to nav bar
+        val topPadding = when {
+            immersiveListEnabled -> 320.dp // Push rows down when immersive preview is active
+            featuredMovies.isNotEmpty() -> 48.dp // Minimal padding when only carousel (nav bar height + spacing)
+            else -> 48.dp // Minimal padding when neither is enabled (just nav bar height + spacing)
         }
         
         @OptIn(ExperimentalComposeUiApi::class)
