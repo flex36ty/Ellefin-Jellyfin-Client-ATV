@@ -1,3 +1,5 @@
+This app was written 100% by Ai and the below has been written by Ai also. I have zero coding knowlegde. I will keep making updates as I go along
+
 # Elefin - Jellyfin Client for Android TV
 
 **Elefin** is a modern, feature-rich Android TV and mobile client for Jellyfin media servers, built with Jetpack Compose and Android TV Material3 design principles. It provides a beautiful, intuitive interface for browsing and streaming your media library on Android TV devices and mobile phones.
