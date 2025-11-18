@@ -227,7 +227,8 @@ This app demonstrates the following Android TV Material3 components:
 - **Surface**: Interactive surfaces with borders
 
 ## 📸 Screenshots
-
+![Home Screen](https://raw.githubusercontent.com/flex36ty/Ellefin-Jellyfin-Client-ATV/master/screenshots/homescreen.png)
+![Home Screen](https://raw.githubusercontent.com/flex36ty/Ellefin-Jellyfin-Client-ATV/master/screenshots/screenshot2.png)
 ![List of screenshots from the Elefin application](./Screenshots.png)
 
 ## 🔧 Customization Options
